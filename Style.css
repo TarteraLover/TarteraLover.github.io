@@ -1,4 +1,6 @@
 
+/*SCREE*/
+
 *{
     margin: 0;
 }
@@ -21,4 +23,12 @@ body {
     background-color: black;
     min-height: 5rem;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo {
+    max-height: 4rem;
+    object-fit: contain; 
 }
