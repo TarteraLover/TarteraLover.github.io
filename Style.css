@@ -4,31 +4,74 @@
 *{
     margin: 0;
 }
+html {
+    height: 100%;
+}
 
 body {
     background-image: url('peakpx.jpg');
     background-size: cover; /* Ajusta la imatge perquè cobreixi tota la pantalla */
+    background-position: center;
     background-repeat: no-repeat;
-    background-color: gray;
+    height: 100% !important;     
+    margin: 0;        
+    padding: 0;      
+    width: 100%;      
+    display: flex;
+    flex-direction: column;
 }
 
 #mainBody {
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
 }
 
 #Header {
     width: 100vw;
     background-color: black;
-    min-height: 5rem;
+    min-height: 8vh;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+#viewCount {
+    min-height: 2vh;
+    min-width: 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+svg {
+    height: 2vh;
+    width: 2vw;
+}
+
 #logo {
-    max-height: 4rem;
+    max-height: 5vh;
     object-fit: contain; 
+}
+
+#content {
+    background-color: rgba(0, 0, 0, 0.6);
+    color:white;
+    width: 60vw;
+    margin-left: 20vw;
+    height: 100%;
+    padding: 1vh;
+}
+
+#footer {
+    min-height: 8vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
