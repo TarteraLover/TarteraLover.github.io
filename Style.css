@@ -8,7 +8,16 @@
     font-style: normal;
 }
 
-  
+* p{
+    font-size: 23px;
+}
+
+* h2{
+    font-size: 27px;
+}
+* h1{
+    font-size: 35px;
+}
 
 html {
     height: 100%;
