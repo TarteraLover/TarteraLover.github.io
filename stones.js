@@ -98,6 +98,8 @@ const comments = [
 
 const form = document.getElementById("myForm");
 const commentCont = document.getElementById("commentContainer");
+const audioPlayer = document.getElementById('audioPlayer');
+            
 
 // Add an event listener to handle the form submission
 form.addEventListener("submit", function (event) {
@@ -135,6 +137,13 @@ function CommentLoop() {
     const c = comments[Math.floor(Math.random() * comments.length)];
     AddComment(c.nom, c.coment);
   }, 20000);
+}
+
+function PonteActivation(){
+  console.log("pressssss");
+  const miDiv = document.getElementById('ponte');
+  miDiv.classList.toggle('mostrar');
+  audioPlayer.play();
 }
 
 AddComents();
