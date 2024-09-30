@@ -14,9 +14,11 @@
 
 * h2{
     font-size: 27px;
+    font-weight: bold;
 }
 * h1{
     font-size: 35px;
+    font-weight: bold;
 }
 
 html {
