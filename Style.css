@@ -108,3 +108,54 @@ body {
     height: 40vh;
     margin-right: 1vw;
 }
+
+.commentSection {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 1vh;
+    border-radius: 5px;
+}
+
+.commentSection form {
+    display: flex;
+    flex-direction: column;
+}
+
+.comentari {
+    border: solid black 3px;
+    background-color: rgb(15, 15, 15);
+    padding: 1vh;
+    border-radius: 5px;
+}
+
+.button-dark {
+    background-color: #1a1a1a; /* Dark background */
+    color: #ffffff; /* White text */
+    border: 2px solid #444; /* Slightly lighter border */
+    padding: 12px 24px; /* Padding for size */
+    font-size: 16px; /* Font size */
+    border-radius: 6px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    text-transform: uppercase; /* Uppercase text */
+    letter-spacing: 1px; /* Slightly spaced letters */
+    transition: background 0.3s, color 0.3s, border 0.3s; /* Smooth transition */
+  }
+  
+  /* Hover state */
+  .button-dark:hover {
+    background-color: #333; /* Lighter background on hover */
+    color: #00bcd4; /* Cyan text on hover */
+    border-color: #00bcd4; /* Cyan border on hover */
+  }
+  
+  /* Active (pressed) state */
+  .button-dark:active {
+    background-color: #444; /* Even lighter background on active state */
+    color: #ffffff; /* White text */
+    border-color: #00bcd4; /* Keep cyan border */
+  }
+  
+  /* Focus state for accessibility */
+  .button-dark:focus {
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 0 3px rgba(0, 188, 212, 0.5); /* Cyan glow outline */
+  }
